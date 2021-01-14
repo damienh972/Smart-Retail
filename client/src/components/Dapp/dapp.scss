@@ -1,0 +1,12 @@
+.dapp{
+
+  display: flex;
+  flex-wrap: wrap;
+
+  .MuiCard-root{
+    transition: all .1s ease-in-out !important;
+      &:hover {
+        transform: scale(1.01) ;
+      }
+  }
+}
